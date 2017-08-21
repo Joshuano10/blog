@@ -67,10 +67,10 @@ let Models = {
   // Img: mongoose.model('Img', imgSchema)
 }
 
-// let user = new Models.User({
-//     name: 'joshua',
-//     pwd: 'shihao1996'
-// });
-// user.save();
+let user = new Models.User({
+   name: 'joshua',
+   pwd: 'shihao1996'
+});
+user.save();
 
 module.exports = Models;
